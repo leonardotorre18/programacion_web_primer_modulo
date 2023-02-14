@@ -1,0 +1,56 @@
+extructura html
+
+metadatos
+    - keyboard
+    - description
+    - author
+    - language
+    - theme-color
+    - revised
+    - title
+    - link icon
+
+header > nav > ul > li
+
+titulos,
+parrafos
+span
+
+formularios
+
+
+
+CSS
+  enlazar
+  - Selectores
+  - Medidas fijas y responsivas
+  - Propiedades
+    - Color
+    - Text
+    - Background
+    - Font
+    - Margin
+    - Padding
+    - Display
+    - Shadow
+    - Width - Heigh
+    - Object fit
+    - Position
+    - Transition
+    - Transform
+    * 3D
+    - Variables
+    - Animaciones
+    - PseudoClases
+
+    
+    - FlexBox
+      - Aling items
+      - Justify content
+      - flex-direction
+
+    - Grid
+      - span
+      - autofit
+    
+

@@ -1,0 +1,40 @@
+- Web2
+- Etiqueta <script>
+- Primer Hola mundo!
+- Declaración de variables
+- Condicionales
+- Funciones
+- Bucles
+    - For
+    - While
+    - Do While
+- Objetos
+- Clases
+    - Variables y métodos
+    - Herencia
+    - Contructor y método super()
+- Scope
+- Clousure
+- Lenguaje Basado en Prototipos
+- Arreglos
+    - .map()
+    - .fill()
+    - .filter()
+    - .pop()
+    - .push()
+    - .find()
+    - .findIndexOf()
+    - .some()
+    - .every()
+    - forEach()
+    - For in
+    - For of
+- Recursividad
+- Operadores Ternarios
+- Destructuración de datos
+- Funciones con parámetros indefinidos
+- Asincronismo (Async Await)
+- Fetch
+- Promesas
+- Cookies
+- LocalStorage

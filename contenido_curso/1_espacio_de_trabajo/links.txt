@@ -1,0 +1,11 @@
+Visual Studio Code
+  https://code.visualstudio.com
+
+GIT
+  https://git-scm.com
+
+Package Management
+  https://nodejs.org/es/
+
+Figma
+  https://www.figma.com

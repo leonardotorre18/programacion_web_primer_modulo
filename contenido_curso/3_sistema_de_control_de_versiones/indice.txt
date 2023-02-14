@@ -1,0 +1,24 @@
+- Cuenta en GitHub y GitLab
+    - Comandos básicos
+        - init
+        - add
+        - commit
+        - branch
+        - checkout
+        - push
+        - merge
+        - clone
+        - remote
+        - pull
+
+Crear repositorio
+agregar cambios
+commit (dos maneras de hacerlo)
+distintas ramas (git-flow)
+checkout movernos entre ramas
+mergerar cambios
+remote
+pusear cambios a un repositorio
+Hacer cambios desde el repositirio y luego tratar de pushear
+Explicar el pull
+

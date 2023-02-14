@@ -1,0 +1,15 @@
+- Declaración de Variables
+- Tipos de datos
+- Condicionales
+- Funciones
+- Objetos
+- Clases
+    - Valores
+    - Métodos
+    - Constructor
+    - Herencia
+    - Encapsulación
+- Recursión
+- Programación Funcional vs POO
+
+

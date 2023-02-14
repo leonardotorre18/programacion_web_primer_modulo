@@ -1,0 +1,40 @@
+Figma
+  Figma es un editor de gráficos vectorial y una herramienta de generación de prototipos, principalmente basada en la web, con características off-line adicionales habilitadas por aplicaciones de escritorio en macOS y Windows.
+
+La usamos en la fase de creación
+El modelo en cascada 
+  Analisis:
+    Requisitos de sistema
+    Requisitos de software
+    Análisis
+    Diseño
+    Implementación
+    Prueba
+    Servicio
+  
+  Análisis: planificación, análisis y especificación de los requisitos.
+  Diseño: diseño y especificación del sistema.
+  Implementación: programación y pruebas unitarias.
+  Verificación: integración de sistemas, pruebas de sistema y de integración.
+  Mantenimiento: entrega, mantenimiento y mejora.
+
+
+  Dahsboardfigma
+    - Equipos de trabajo
+    - Proyectos
+    - Equipos de trabajo
+  - Proyectos
+  - Archivos
+  - A tener en cuenta
+      - Paleta de colores    Coolors
+      - Tipografía
+  - Creando un diseño
+      - Frames
+      - Formas
+      - Pluma
+      - Imágenes
+      - Texto
+      - Grupos
+      - Propiedades de objetos
+      - Layout Grid, Alineación de objetos
+      - Exportación de archivo
