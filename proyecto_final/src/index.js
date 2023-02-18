@@ -1,16 +1,32 @@
-import './styles/index.scss'
-import { useShake } from './animations/animations';
-import MainTitle from './components/MainTitle';
-import Image from './components/Image';
-import Container from './components/Container'
+import './styles/index.scss';
+import { getData } from './services';
+import { itemSongComponent, currentSongComponent } from './components';
+import { addClickListener, removeAllChild } from './utils';
 
-const root = document.getElementById('root')
 
-root.appendChild(MainTitle('Proyecto Webpack + JavaScript Vanilla'));
+const setCurrentSong = (child) => {
+  const currentSong = document.getElementById('current_song');
+  removeAllChild(currentSong)
+  
+  currentSong.appendChild(child)
+}
 
-const Jumbotron = document.createElement('div')
-Jumbotron.classList.add('jumbotron')
-Jumbotron.appendChild(Container(Image('/javascript_logo.png', useShake)))
-Jumbotron.appendChild(Container(Image('/webpack_logo.png', useShake)))
+const header = document.getElementById('header')
+const responsiveMenu = document.getElementById('responsive_menu')
 
-root.appendChild(Jumbotron)
+addClickListener(responsiveMenu, () => {
+  header.classList.toggle('visible')
+})
+
+const trackList = document.getElementById('track_list')
+
+getData((res) => {
+  setCurrentSong(currentSongComponent(res[0]))
+  res.forEach(element => {
+    trackList.appendChild(
+      itemSongComponent(element, data => setCurrentSong(currentSongComponent(data))
+    ))
+  });
+})
+
+
