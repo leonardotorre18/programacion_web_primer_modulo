@@ -5,7 +5,7 @@ export const itemSongComponent = (song, event = ()=>{}) => {
   })
   div.classList.add('song')
   div.innerHTML = `
-      <img src="https://leonardoapi.onrender.com${song.path.front}">
+      <img src="${song.path.front}">
       <div class="description">
         <h4>${song.title}</h4>
         <p>${song.author}</p>
@@ -19,12 +19,12 @@ export const currentSongComponent = (song) => {
   const div = document.createElement('div');
   div.classList.add('song')
   div.innerHTML = `
-      <img src="https://leonardoapi.onrender.com${song.path.front}">
+      <img src="${song.path.front}">
       <div class="description">
         <h4>${song.title}</h4>
         <p>${song.author}</p>
       </div>
-      <audio src="https://leonardoapi.onrender.com${song.path.audio}" controls>
+      <audio src="${song.path.audio}" controls autoplay>
   `;
   return div
 }

@@ -5,6 +5,7 @@
 @import "./background.scss";
 @import "./scrollbar.scss";
 @import "./responsiveMenu.scss";
+@import "./loader.scss";
 
 *,*::after,*::before {
   margin: 0;
@@ -12,6 +13,7 @@
   box-sizing: border-box;
   font-family: $font_family;
   color: $color_white;
+  outline: none;
 }
 
 html {

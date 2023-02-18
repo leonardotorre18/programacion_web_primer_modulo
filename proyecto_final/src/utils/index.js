@@ -7,3 +7,13 @@ export const removeAllChild = (father) => {
     father.removeChild(father.firstChild)
   }
 }
+
+export const useLocalstorage = (key) => {
+
+  const setItem = (newValue) => localStorage.setItem(key, JSON.stringify(newValue))
+  const getItem = () => JSON.parse(localStorage.getItem(key))
+  return {
+    setItem,
+    getItem
+  }
+}

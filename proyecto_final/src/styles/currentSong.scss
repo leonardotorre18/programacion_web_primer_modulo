@@ -1,7 +1,16 @@
 #current_song {
   background-color: $color_dark;
   width: 100%;
+  display: flex;
   .song {
+    display: flex;
+    width: 100%;
+    @media (max-width: 576px) {
+      flex-wrap: wrap;
+      audio::-webkit-media-control {
+        width: 100%;
+      }
+    }
     img { 
       height: 100%;
       object-fit: cover;
@@ -13,6 +22,9 @@
     gap: 10px;
     display: flex;
     height: 4em;
+    @media (max-width: 576px) {
+      height: auto;
+    }
     margin: 1em;
     align-items: center;
     justify-content: space-between;
