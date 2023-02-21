@@ -5,8 +5,16 @@
   .song {
     display: flex;
     width: 100%;
+    gap: 10px;
+    display: flex;
+    height: 4.8em;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: default;
     @media (max-width: 576px) {
       flex-wrap: wrap;
+      height: auto;
       audio::-webkit-media-control {
         width: 100%;
       }
@@ -15,20 +23,11 @@
       height: 100%;
       object-fit: cover;
       margin: 0 10px;
+      border-radius: 5px;
       @media (max-width: 576px) {
         display: none;
       }
     }
-    gap: 10px;
-    display: flex;
-    height: 4em;
-    @media (max-width: 576px) {
-      height: auto;
-    }
-    margin: 1em;
-    align-items: center;
-    justify-content: space-between;
-    cursor: default;
     .description {
       flex-grow: 1;
     }

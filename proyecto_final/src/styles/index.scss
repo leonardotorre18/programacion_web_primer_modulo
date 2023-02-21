@@ -38,8 +38,15 @@ main#main {
   background-color: $color_main_50;
   h2.title {
     padding: 1em;
-    padding-bottom: .3em;
+    padding-bottom: 0;
   }
+}
+hr {
+  margin: .7em 0;
+  border: none;
+  height: 2px;
+  background-image: linear-gradient(to left, #00000000, $color_main_75, #00000000);
+  // background-color: $color_main_50;
 }
 
 #app {
