@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Formulario</title>
+</head>
+<body>
+  <!-- Background -->
+  <div id="background"></div>
+
+    <!-- Header -->
+  <header class="header">
+    <nav class="header__nav">
+      <div class="header__nav__logo">
+        <img src="/assets/logo.svg" alt="Logo principal">
+      </div>
+      <ul class="header__nav__list">
+        <li>Inicio</li>
+        <li>Servicios</li>
+        <li>Sobre Nosotros</li>
+      </ul>
+      <a href="#form">
+        <button class="button">
+          Contáctanos
+        </button>
+      </a>
+    </nav>
+  </header>
+
+  <main class="main">
+
+    <section class="section">
+      <style>
+        .form-submit label {
+          display: flex;
+          width: 100%;
+          flex-direction: column;
+          margin: 1em auto;
+          gap: 10px;
+
+        }
+      </style>
+
+      <form action="https://leonardoapi.onrender.com/form/signin" id="form" method="post">
+        <div class="form-submit">
+          <label for="email">
+            Email:
+            <input type="email" name="email" class="form__input" id="email">
+          </label>
+          <label for="password">
+            Contraseña:
+            <input type="password" name="password" class="form__input" id="password">
+          </label>
+          <input type="submit" value="Iniciar Sessión" class="button">
+        </div>
+      </form>
+      
+    </section>
+
+  </main>
+  
+  <script src="/script.js"></script>
+</body>
+</html>

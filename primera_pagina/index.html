@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Página Web</title>
+</head>
+<body>
+  <!-- Background -->
+  <div id="background"></div>
+  <!-- Header -->
+  <header class="header">
+    <nav class="header__nav">
+      <div class="header__nav__logo">
+        <img src="/assets/logo.svg" alt="Logo principal">
+      </div>
+      <ul class="header__nav__list">
+        <li>Inicio</li>
+        <li>Servicios</li>
+        <li>Sobre Nosotros</li>
+      </ul>
+      <a href="#form">
+        <button class="button">
+          Contáctanos
+        </button>
+      </a>
+    </nav>
+  </header>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+    <div class="jumboton__container">
+      <h1 class="jumboton__container__title">Jumbotron de la Página Principal</h1>
+      <p class="jumboton__container__param">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    </div>
+    <button class="button">
+      Únete a Nosotros
+    </button>
+  </div>
+
+  <!-- Galería de Fotos -->
+  <div class="galery">
+    <div class="galery__item1">
+      <img src="/assets/1.jpg" alt="">
+    </div>
+    <div class="galery__item2">
+      <img src="/assets/2.jpg" alt="">
+    </div>
+    <div class="galery__item3">
+      <img src="/assets/3.jpg" alt="">
+    </div>
+  </div>
+
+  <!-- Contenido de la Página -->
+  <main class="main">
+
+    <section class="section left">
+      <h3>Comprometidos con el desarrollo de nuevos profesionales</h3>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+    </section>
+
+    <section class="section right">
+      <h3>Hecha un vistazo a lo que tenemos para ofrecerte</h3>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </section>
+
+    <!-- Grid de Imágenes -->
+    <div class="grid-galery">
+      <div class="grid-galery__item">
+        <img src="/assets/4.jpg" alt="">
+      </div>
+      <div class="grid-galery__item">
+        <img src="/assets/5.jpg" alt="">
+      </div>
+      <div class="grid-galery__item">
+        <img src="/assets/6.jpg" alt="">
+      </div>
+      <div class="grid-galery__item">
+        <img src="/assets/7.jpg" alt="">
+      </div>
+
+    </div>
+
+    <section class="section left">
+      <h3>Únete a nosotros</h3>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+      <!-- Formulario de Registro -->
+      <form action="/" method="get" id="form">
+        <div class="form">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form__input"
+            placeholder="Ingresa tu @email"
+          >
+          <input type="submit" value="Enviar solicitud" class="button"></input>
+        </div>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer de la pagina -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__container__logo">
+        <img src="/assets/logo.svg" alt="Logo Principal">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      </div>
+      <ul class="footer__container__list">
+        <li>Inicio</li>
+        <li>Servicios</li>
+        <li>Sobre Nosotros</li>
+      </ul>
+      <div class="footer__container__social-list">
+        <div class="footer__container__social-list__item">
+          <img src="/assets/facebook.svg" alt="">
+        </div>
+        <div class="footer__container__social-list__item">
+          <img src="/assets/github.svg" alt="">
+        </div>
+        <div class="footer__container__social-list__item">
+          <img src="/assets/instagram.svg" alt="">
+        </div>
+        <div class="footer__container__social-list__item">
+          <img src="/assets/linkedin.svg" alt="">
+        </div>
+        <div class="footer__container__social-list__item">
+          <img src="/assets/twitter.svg" alt="">
+        </div>
+        <div class="footer__container__social-list__item">
+          <img src="/assets/whatsapp.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
