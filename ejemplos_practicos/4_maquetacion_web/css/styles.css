@@ -1,0 +1,415 @@
+/* Ejemplo 1, explicar la especificidad */
+
+/* p {
+  color: brown;
+}
+.parrafo {
+  color: blue;
+}
+p.parrafo.adicional {
+  color: chartreuse;
+}
+
+#parrafo {
+  color: aqua;
+} */
+
+/* ----------------------------------------------------------------------- */
+
+/* Ejemplo 2 */
+
+/* div p {
+  color: red;
+}
+section p {
+  color: aqua;
+}
+
+div > p {
+  color: darkgreen;
+} */
+
+/* ----------------------------------------------------------------------- */
+
+
+/* 
+Medidas
+    px
+    em rem
+    %
+    vw vh
+    maxw maxh
+    minw minh
+
+
+    colores:
+    nombre
+    rgb rgba
+    hex
+    hsl
+
+*/
+
+/* ----------------------------------------------------------------------- */
+
+/* Tercer Ejemplo */
+/* .background {
+  background-color: coral;
+  background-image: linear-gradient(to left, rgb(57, 221, 207),rgb(48, 226, 108));
+  background-image: radial-gradient(circle, rgb(57, 221, 207),rgb(48, 226, 108));
+  background-image: url('https://img.freepik.com/foto-gratis/textura-pared-estuco-azul-marino-relieve-decorativo-abstracto-grunge-fondo-color-rugoso-gran-angular_1258-28311.jpg');
+  background-size: 100px;
+  background-repeat: repeat;
+} */
+
+
+/* ----------------------------------------------------------------------- */
+
+/* Cuarto Ejemplo */
+/* h1, p {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: line-through;
+  text-shadow: 20px 5px 5px red;
+} */
+
+
+/* ----------------------------------------------------------------------- */
+
+/* Cuarto Ejemplo, Google font */
+
+/* @font-face {
+  font-family: 'Nombrecito';
+  src: url('url.ttf');
+} */
+
+/* html {
+  font-size: 16px;
+}
+h1 {
+  font-size: 1rem;
+  font-family: 'Ubuntu', sans-serif
+}
+p {
+  font-size: 1em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  font-style: italic;
+} */
+
+/* ----------------------------------------------------------------------- */
+
+/* Quinto Ejemplo */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(26, 26, 26);
+  color: #ebebeb;
+  font-family: 'ubuntu', sans-serif; 
+}
+div {
+  background-color: #d83838;
+  padding: 1em;
+  margin: 1em;
+}
+h1 {
+  background-color: #3150b6;
+  padding: 1em;
+  border: solid 1em rgb(35, 235, 68);
+  outline: solid 1em rebeccapurple;
+  border-bottom: solid 2em red;
+} */
+
+/* ----------------------------------------------------------------------- */
+
+/* Sexto Ejemplo */
+/* body {
+  background-color: rgb(26, 26, 26);
+  color: #ebebeb;
+  font-family: 'ubuntu', sans-serif; 
+}
+div {
+  font-size: 3em;
+}
+.caja1 {
+  background-color: rgb(224, 71, 71);
+  display: block;
+}
+.caja2 {
+  background-color: rgb(236, 201, 41);
+  display: inline;
+  visibility: hidden;
+  opacity: .5;
+}
+.caja3 {
+  background-color: rgb(72, 219, 35);
+  display: inline;
+}
+.caja4 {
+  background-color: rgb(64, 113, 204);
+  display:none;
+} */
+
+/* ----------------------------------------------------------------------- */
+
+/* Septimo Ejemplo Ejemplo */
+/* div {
+  background-color: rgb(224, 71, 71);
+  font-size: 3rem;
+  display: inline;
+  padding: 1em;
+  box-shadow: 1px 1px 20px 10px rgba(0, 0, 0, 0.212);
+  box-shadow: inset 1px 1px 20px 10px rgba(0, 0, 0, 0.212);
+} */
+
+/* ----------------------------------------------------------------------- */
+
+/* Octavo Ejemplo */
+/* * {
+  box-sizing: border-box;
+}
+
+div {
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+}
+div {
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+} */
+/* --------* */
+/* Explicar boxsizin, luego las medidas */
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgb(26, 26, 26);
+  border: solid 2px red;
+  width: 800px;
+  width: 100%;
+  width: 800px;
+  height: 2000px;
+  height: auto;
+}
+.container > div {
+  width: 200px;
+  height: 200px
+} */
+/* Por especificidad */
+/* div.box1 {
+  background-color: rgb(224, 71, 71);
+  padding: 30px;
+  width: 100%;
+  width: 100vw;
+  height: 100%;
+  height: 200px;
+}
+.box2 {
+  background-color: rgb(236, 201, 41);
+}
+.box3 {
+  background-color: rgb(72, 219, 35);
+  
+}
+.box4 {
+  background-color: rgb(64, 113, 204);
+  
+}
+.box5 {
+  background-color: palevioletred;
+} */
+
+
+/* ----------------------------------------------------------------------- */
+
+/* Noveno Ejemplo */
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: rgb(26, 26, 26);
+  height: 1000px;
+  margin: 3em;
+  position: relative;
+}
+.container > div {
+  width: 200px;
+  height: 200px;
+}
+.box1 { background-color: rgb(224, 71, 71); position: absolute; right: 10px; top: 10%;}
+.box2 { background-color: rgb(236, 201, 41); position: fixed; right: 50%; top: 0 }
+.box3 { background-color: rgb(72, 219, 35); }
+.box4 { background-color: rgb(64, 113, 204); position: sticky; top: 200px; left: 0; }
+.box5 { background-color: palevioletred; } */
+
+
+/* ----------------------------------------------------------------------- */
+
+/* Noveno Ejemplo */
+/* trucazos para centrar */
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(26, 26, 26);
+  perspective: 800px;
+}
+div {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(224, 71, 71);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%); 
+  transform-style: preserve-3d;
+  margin: 100px auto;
+  transform: scale(1.5); 
+}
+*/
+
+/* ----------------------------------------------------------------- */
+/* Variables */
+/* :root {
+  --color-principal: red;
+}
+
+body {
+  background-color: var(--color-principal);
+} */
+
+
+/* ----------------------------------------------------------------- */
+/* Decimo Ejemplo */
+/* body {
+  background-color: rgb(26, 26, 26);
+}
+div {
+  background-color: rebeccapurple;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  transition: background 1s ease-in;
+}
+div p {
+  color: #fff;
+  font-size: 2em;
+  transition: color 3s ease-in-out;
+} */
+
+/* div:hover {
+  background-color: brown;
+}
+div:hover p {
+  color: black;
+} */
+/* div:first-child {
+  background-color: aqua;
+} */
+/* div:last-child {
+  background-color: red;
+} */
+/* div:nth-child(n*2) {
+  background-color: azure;
+} */
+/* div:only-child() {
+  background-color: red;
+} */
+/* input {
+  font-size: 2em;
+} */
+/* div:empty {
+  background-color: red;
+} */
+/* input:focus {
+  background-color: red;
+} */
+
+
+/* ----------------------------------------------------------------- */
+/* Flexbox */
+
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(26, 26, 26);
+}
+.container {
+  background-color: rgb(59, 59, 59);
+  margin: 1em;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+
+  
+}
+.container > div { width: 100px; height: 100px; min-width: 100px;}
+.container div:nth-child(1) {background-color:rgb(224, 71, 71);}
+.container div:nth-child(2) {background-color:rgb(236, 201, 41); height: 200px;}
+.container div:nth-child(3) {background-color:rgb(72, 219, 35); width: 30px;}
+.container div:nth-child(4) {background-color:rgb(64, 113, 204);height: 50px;} */
+
+/* ----------------------------------------------------------------- */
+/* Grid */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(26, 26, 26);
+}
+.container {
+  background-color: rgb(59, 59, 59);
+  margin: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: 200px 200px; */
+  justify-items: center;
+  align-items: center;
+  gap: 1em;
+  grid-auto-rows: 100px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+}
+.container > div { width: 100%; height: 100%;}
+.container div:nth-child(1) {background-color:rgb(224, 71, 71);
+  /* grid-column: 2; */
+}
+.container div:nth-child(2) {background-color:rgb(236, 201, 41); 
+  /* grid-column: 1; */
+  /* grid-row: 1; */
+}
+.container div:nth-child(3) {background-color:rgb(72, 219, 35); 
+  /* grid-row: span 2; */
+}
+.container div:nth-child(4) {background-color:rgb(64, 113, 204);}
+.container div:nth-child(5) {background-color:rgb(224, 71, 71);}
+.container div:nth-child(6) {background-color:rgb(236, 201, 41); 
+  /* grid-column: span 3; */
+}
+.container div:nth-child(4),
+.container div:nth-child(5),
+.container div:nth-child(6) {
+  /* display: none; */
+}
