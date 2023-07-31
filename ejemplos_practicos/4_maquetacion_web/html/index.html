@@ -33,10 +33,38 @@
 
 </head>
 <body>
-  
+
+
+  <!-- 
+              <HEADER>
+    Cabezera del contenido de una sección de la web
+
+   -->
   <header>
+
+
+    <!-- 
+              <NAV>
+      Etiqueda destinada para contener el menú de navegación
+      de una página web
+     -->
     <nav>
+
+
+      <!-- 
+              <UL>
+        Lista desorndenada. Esta etiqueta es comúnmente empleada para 
+        listar elementos. Dicha lista de elementos puede encontrarse en 
+        parrafos de lectura, menús de navegación, listado de características/
+        precios/tallas, entre otros...
+       -->
       <ul>
+
+        <!-- 
+                <LI>
+          Elemento de una lista. Por regla semántica, todo <li> debe está dentro de
+          un <ul>. El <li> es el contenedor de cada elemento de una lista.
+         -->
         <li></li>
         <li></li>
         <li></li>
@@ -44,6 +72,13 @@
         <li></li>
       </ul>
 
+
+      <!-- 
+              <OL>
+        Funciona igual al <ul>, solo que sus estilos genéricos son distintos.
+        Es más común usar <ul>
+
+       -->
       <ol>
         <li></li>
         <li></li>
@@ -55,15 +90,48 @@
   </header>
 
 
+
+  <!-- 
+            <MAIN>
+    Contenido principal de una sección de la página.
+    Usualmente todo el contenido de un sitio web se 
+    encuentra dentro de una etiqueta de este tipo.
+
+   -->
   <main>
 
+    <!-- 
+            <SECTION>
+      Etiqueta de sección sirve para subidividir un sitio web,
+      recordando que la 
+     -->
     <section></section>
+
+    <!-- 
+            <ASIDE>
+      Contenido lateral complementario sin relevancia crítica en la página
+     -->
     <aside></aside>
 
     <section>
 
+
+      <!-- 
+
+            <DIV>
+        Etiqueta genérica en el html semático,
+        no posee efecto en el orden semático
+       -->
+
       <div>
 
+        <!-- 
+
+              <H(1|2|3|4|5|6)>
+          Títulos en la página.
+          Recordar que el <h1> debe ser único en cada página.
+          El resto sigue la importancia del orden numérico
+         -->
         <h1> Título H1</h1>
         <h2> Título H2</h2>
         <h3> Título H3</h3>
@@ -71,11 +139,41 @@
         <h5> Título H5</h5>
         <h6> Título H6</h6>
 
+
+        <!-- 
+                <P>
+          Párrofos o textos largos
+         -->
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.  <b>Expedita corrupti</b>facere facilis illum deserunt, ea suscipit vitae corporis, <i>repellat ipsum</i>, <br>modi dicta iste a explicabo quo. At, modi quod. Nulla?
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+
+          <!-- 
+                <B>
+            Texto en negrita
+           -->
+          <b>Expedita corrupti</b>
+          facere facilis illum deserunt, ea suscipit vitae corporis, 
+
+          <!-- 
+                <I>
+            Texto en ítalica/cursiva
+           -->
+          <i>repellat ipsum</i>, 
+          
+
+          <!-- 
+                <BR>
+            Salto de página, no posee cierre
+           -->
+          <br>modi dicta iste a explicabo quo. At, modi quod. Nulla?
           <hr>
 
         </p>
+
+        <!-- 
+              <A>
+          Enlace a puntos de la página actual o enlaces externos
+         -->
         <a href="https://www.facebook.com">Enlace a facebook</a>
         <a href="/otrapagina.html">Otra pagina</a>
       
@@ -89,7 +187,23 @@
     <section></section>
     <aside>
 
+      <!-- 
+            <IMG>
+        Para imágenes en la página, podemos incluir archivos JPG,
+        JPEG, PNG, SVG, GIF, entre otros...
+       -->
       <img src="img.jpg" alt="Imagen En servidor">
+
+
+
+      <!-- 
+
+            <FIGURE>
+        Es una estructura para agregar imágenes con descripción.
+        La descripción suele agregarse dentro de la estructura en
+        la etiqueta <figcaption>
+
+       -->
 
       <figure>
         <img src="http://cd1.eju.tv/wp-content/uploads/2014/02/busqueda-inversa-de-imagenes-google-792x600.jpg" alt="Imagen en una url">
@@ -102,7 +216,23 @@
 
     <section>
 
+
+      <!-- 
+            <FORM>
+        Etiqueta única en su funcionalidad dado que permite en envío 
+        de datos a través del protocolo http
+
+       -->
+
       <form action="/" method="get">
+
+
+        <!-- 
+            <INPUT>
+          Entrada de información a la página. tenemos distintos tipos
+          entre los que resaltan: texto, checkbox, date, email, password, entre otros...
+
+         -->
 
         <input type="text">
         <input type="checkbox" name="" id="">
@@ -141,6 +271,16 @@
 
   </main>
 
+
+  <!-- 
+
+          <FOOTER>
+    Contraparte de <header>, en este caso el footer comprende
+    lo que se asemeja a un pié de página. Es información complementaria
+    al contenido, llegando a incluir un segundo menú de navegación.
+    Siempre se encuentra al final
+
+   -->
   <footer></footer>
   
 </body>
