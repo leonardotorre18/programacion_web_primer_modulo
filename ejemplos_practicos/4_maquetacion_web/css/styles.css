@@ -1,4 +1,4 @@
-/* Ejemplo 1, explicar la especificidad */
+/* Ejemplo 1 */
 
 /* p {
   color: brown;
@@ -14,23 +14,8 @@ p.parrafo.adicional {
   color: aqua;
 } */
 
-/* ----------------------------------------------------------------------- */
-
-/* Ejemplo 2 */
-
-/* div p {
-  color: red;
-}
-section p {
-  color: aqua;
-}
-
-div > p {
-  color: darkgreen;
-} */
 
 /* ----------------------------------------------------------------------- */
-
 
 /* 
 Medidas
@@ -52,7 +37,7 @@ Medidas
 
 /* ----------------------------------------------------------------------- */
 
-/* Tercer Ejemplo */
+/* Segundo Ejemplo */
 /* .background {
   background-color: coral;
   background-image: linear-gradient(to left, rgb(57, 221, 207),rgb(48, 226, 108));
@@ -65,7 +50,7 @@ Medidas
 
 /* ----------------------------------------------------------------------- */
 
-/* Cuarto Ejemplo */
+/* Tercero Ejemplo */
 /* h1, p {
   text-align: center;
   text-transform: uppercase;
@@ -76,7 +61,7 @@ Medidas
 
 /* ----------------------------------------------------------------------- */
 
-/* Cuarto Ejemplo, Google font */
+/* Cuarto Ejemplo */
 
 /* @font-face {
   font-family: 'Nombrecito';
@@ -100,7 +85,8 @@ p {
 /* ----------------------------------------------------------------------- */
 
 /* Quinto Ejemplo */
-/* * {
+/* 
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -155,7 +141,7 @@ div {
 
 /* ----------------------------------------------------------------------- */
 
-/* Septimo Ejemplo Ejemplo */
+/* Septimo Ejemplo */
 /* div {
   background-color: rgb(224, 71, 71);
   font-size: 3rem;
@@ -411,5 +397,6 @@ body {
 .container div:nth-child(4),
 .container div:nth-child(5),
 .container div:nth-child(6) {
+  text-align: center;
   /* display: none; */
 }
